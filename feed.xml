@@ -1,0 +1,715 @@
+ <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://jacobrhysdavies.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jacobrhysdavies.com/" rel="alternate" type="text/html" /><updated>2022-11-27T23:00:07+01:00</updated><id>https://jacobrhysdavies.com/feed.xml</id><title type="html">Jacob R. Davies</title><subtitle>AWS, Terraform, Enterprise IT services</subtitle><author><name>Jacob R. Davies</name></author><entry><title type="html">alternate</title><link href="https://jacobrhysdavies.com/alternate-theme-for-jekyll/" rel="alternate" type="text/html" title="alternate" /><published>2021-12-03T06:24:48+01:00</published><updated>2022-01-04T00:00:00+01:00</updated><id>https://jacobrhysdavies.com/alternate-theme-for-jekyll</id><content type="html" xml:base="https://jacobrhysdavies.com/alternate-theme-for-jekyll/"><![CDATA[<h2 id="an-open-source-portfolio-theme-for-jekyll">An open-source portfolio theme for Jekyll.</h2>
+<p>alternate 2K20 is the Jekyll theme used for <a href="https://jacobrhysdavies.com">@Jacob R. Davies</a> portfolio site (which you are browsing now).</p>
+
+<h2 id="features">Features</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Image index start page</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Blog</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><a href="https://github.com/jekyll/jekyll-archives">jekyll-archives</a> to build and sort through categories &amp; tags pages</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />RSS/Atom feed</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Jekyll Picture Tag plugin setup</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />SEO tags</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Microdata markup</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><a href="https://gulpjs.com">Gulp.js</a> + <a href="https://www.browsersync.io">Browsersync</a> for fast development</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Built-in site search (does not work with GitHub Pages)</li>
+</ul>
+
+<h2 id="download">Download</h2>
+<p>Download the theme at: <a href="https://github.com/YJPL/alternate/">https://github.com/YJPL/alternate/</a></p>
+
+<p><a href="https://github.com/YJPL/alternate//archive/master.zip" class="btn btn-outline--success grow">Download alternate</a></p>
+
+<p><a href="https://yjpl.github.io/alternate/">alternate</a> was designed as a portfolio theme for <a href="https://jacobrhysdavies.com">Jacob R. Davies</a>, but you can use this theme to start a regular Jekyll blog and tweak it any way you like.</p>
+
+<h2 id="getting-started-with-jekyll--alternate">Getting started with Jekyll + <em>alternate</em></h2>
+
+<h3 id="setup">Setup</h3>
+
+<ol>
+  <li>Install <a href="https://jekyllrb.com/docs/installation/">Jekyll</a></li>
+  <li>Add your site and author details in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+  <li>Get a workflow going to see your site’s output with Jekyll locally using Jekyll commands or Gulp.</li>
+</ol>
+
+<p><em>Supply</em> was built with <a href="http://jekyllrb.com/">Jekyll</a> version 4.0.0, and should support newer versions as well.</p>
+
+<p>Install the dependencies with <a href="http://bundler.io/">Bundler</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Run <code class="language-plaintext highlighter-rouge">jekyll</code> commands through Bundler to ensure you’re using the right versions:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<h3 id="config">Config</h3>
+<p>Add your custom configuration in the <code class="language-plaintext highlighter-rouge">_config</code> file.</p>
+
+<h3 id="navigation">Navigation</h3>
+
+<p>Exposed as a data file to give clients better access
+Set in the <em>Data</em> / <em>Navigation</em> section, look for <code class="language-plaintext highlighter-rouge">navigation.yml</code> in  <code class="language-plaintext highlighter-rouge">_data</code>.</p>
+
+<h3 id="footer">Footer</h3>
+<p>Look for <code class="language-plaintext highlighter-rouge">footer.html</code> in <code class="language-plaintext highlighter-rouge">_includes</code> to add your footer links.</p>
+
+<h2 id="editing">Editing</h2>
+
+<h3 id="posts">Posts</h3>
+
+<ul>
+  <li>Add, update or remove a post in the <em>Posts</em> collection.</li>
+  <li>Change the defaults when new posts are created in <code class="language-plaintext highlighter-rouge">_posts/_defaults.md</code>.</li>
+</ul>
+
+<h3 id="collections">Collections</h3>
+
+<p class="notice">Read about <a href="https://jekyllrb.com/docs/collections/">collections</a> in the Jekyll documentation.</p>
+
+<hr />
+
+<p>Find more templates, themes and Jekyll tutorials at <a href="https://jekyllrb.com/resources/">Jekyll’s official site</a>.</p>
+
+<h2 id="develop">Develop</h2>
+
+<h3 id="building-front-end-assets-styles-and-scripts">Building front-end assets: styles and scripts</h3>
+
+<p>Install Node module dependencies:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span>
+</code></pre></div></div>
+
+<h3 id="tachyons">Tachyons</h3>
+
+<p>You can change the site styling using <a href="http://tachyons.io">Tachyons</a>, look for the CSS in the <code class="language-plaintext highlighter-rouge">sup-theme</code> file, located in the <code class="language-plaintext highlighter-rouge">src</code> folder.</p>
+
+<p>Tachyons is a CSS toolkit and design system based on using components. Please refer to <a href="http://tachyons.io/docs/">Tachyons documentation</a>, you can also start with <a href="https://github.com/dwyl/learn-tachyons">https://github.com/dwyl/learn-tachyons</a></p>
+
+<h3 id="gulp-commands-with-browser-reload">Gulp commands with browser reload</h3>
+
+<p>Supply uses a couple of custom Gulp.js commands with gulp. Make sure to install gulp 4: <code class="language-plaintext highlighter-rouge">npm install --global gulp-cli</code>. (If you have an earlier version of Gulp JS, make sure to remove it by running npm uninstall –global gulp).  Then run <code class="language-plaintext highlighter-rouge">npm install --save-dev gulp@4</code> to install it into your project development dependencies.</p>
+
+<p>Once that is done, to build your site &amp; concatenate your CSS (in <code class="language-plaintext highlighter-rouge">assets</code> -&gt; <code class="language-plaintext highlighter-rouge">CSS</code>), simply run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gulp build
+</code></pre></div></div>
+
+<p>in Terminal.</p>
+
+<p>Then use</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gulp watch
+</code></pre></div></div>
+
+<p>This command builds the site locally on port 3000, with <a href="https://www.browsersync.io">Browsersync</a> so you can quickly revise design changes.</p>
+
+<p>Preview your site with browser reload at <a href="http://localhost:3000">localhost:3000</a>
+Use the address <a href="http://localhost:3001">localhost:3001</a> for additional features like grid preview, CSS highlighting, and more during development.</p>
+
+<h2 id="optimize-images">Optimize Images</h2>
+
+<p>run</p>
+
+<p><code class="language-plaintext highlighter-rouge">gulp images</code></p>
+
+<p>to optimize images from “Illustrations” folder into “img”, which is the production folder.
+Since you only need to run this once, you should remove pictures from the “Illustrations” folder before you add the next batch.</p>
+
+<h2 id="responsive-images">Responsive images</h2>
+<p>For a portfolio, this aspect is important. Resized images are served by the <a href="https://github.com/rbuchberger/jekyll_picture_tag">jekyll-picture-tag</a> plugin to <code class="language-plaintext highlighter-rouge">_site/images/generated</code></p>
+
+<p>The site also use a custom ruby plugin, see <code class="language-plaintext highlighter-rouge">img_tag_transform.rb</code> located in  <code class="language-plaintext highlighter-rouge">_plugins</code> that will replace Markdown images markup with the picture tag.</p>
+
+<p>It means that you no longer need to write special markup for responsive image, and that, should you stop using the picture tag plugin, the site images would not break (assuming you keep the little <code class="language-plaintext highlighter-rouge">img_tag_transform.rb</code> ruby plugin in place. Read more about this <a href="https://github.com/rbuchberger/jekyll_picture_tag/issues/184">here</a>.</p>
+
+<p>Make sure to leave no space in image names!</p>
+
+<h2 id="open-source">Open-source</h2>
+
+<p><a href="https://github.com/YJPL/alternate/archive/master.zip" class="btn btn-outline--secondary">Get alternate</a></p>
+
+<p class="notice">You are welcome to use and contribute to <a href="https://github.com/YJPL/alternate/" class="b blue hover-light-blue">alternate on GitHub</a></p>
+
+<iframe src="https://github.com/sponsors/YJPL/button" title="Sponsor YJPL" height="35" width="107" style="border: 0;"></iframe>]]></content><author><name>Jacob R. Davies</name></author><category term="design" /><category term="Jekyll" /><category term="alternate" /><category term="web" /><category term="Tachyons" /><category term="theme" /><summary type="html"><![CDATA[Introducing alternate, an open-source portfolio theme for Jekyll.]]></summary></entry><entry><title type="html">Supply</title><link href="https://jacobrhysdavies.com/supply-e-commerce-theme-for-jekyll-and-gumroad/" rel="alternate" type="text/html" title="Supply" /><published>2021-04-24T11:24:48+02:00</published><updated>2021-10-21T00:00:00+02:00</updated><id>https://jacobrhysdavies.com/supply-e-commerce-theme-for-jekyll-and-gumroad</id><content type="html" xml:base="https://jacobrhysdavies.com/supply-e-commerce-theme-for-jekyll-and-gumroad/"><![CDATA[<h1 id="supply-a-free-e-commerce-theme-for-jekyll--gumroad">Supply, a free e-commerce theme for Jekyll + Gumroad</h1>
+
+<p><a href="https://supply.templates.supply">Supply</a> is an e-commerce theme for <a href="https://gumroad.com">Gumroad</a> creators, built with <a href="https://jekyllrb.com/docs/">Jekyll</a> and <a href="https://gumroad.com">Tachyons CSS</a>.</p>
+
+<p>If you use Gumroad, you can use Supply to display products on your Jekyll static site or blog.</p>
+
+<p>Browse through a <a href="https://templates.supply" class="btn btn-outline--success">live demo</a></p>
+
+<p><a href="/img/supply/supply-screenshot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/supply/supply-screenshot-240-86ab886a3.webp 240w, /img/supply/supply-screenshot-480-86ab886a3.webp 480w, /img/supply/supply-screenshot-960-86ab886a3.webp 960w, /img/supply/supply-screenshot-1920-86ab886a3.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/supply/supply-screenshot-240-1de5f760c.png 240w, /img/supply/supply-screenshot-480-1de5f760c.png 480w, /img/supply/supply-screenshot-960-1de5f760c.png 960w, /img/supply/supply-screenshot-1920-1de5f760c.png 1920w" type="image/png"><img class="gallery" alt="Supply template screenshot" src="/img/supply/supply-screenshot-960-1de5f760c.png"></picture></a></p>
+
+<p><a href="/img/supply/Supply-illustration-temp.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/supply/Supply-illustration-temp-240-1d614e23e.webp 240w, /img/supply/Supply-illustration-temp-480-1d614e23e.webp 480w, /img/supply/Supply-illustration-temp-960-1d614e23e.webp 960w, /img/supply/Supply-illustration-temp-1920-1d614e23e.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/supply/Supply-illustration-temp-240-7b58f135e.png 240w, /img/supply/Supply-illustration-temp-480-7b58f135e.png 480w, /img/supply/Supply-illustration-temp-960-7b58f135e.png 960w, /img/supply/Supply-illustration-temp-1920-7b58f135e.png 1920w" type="image/png"><img class="gallery" alt="Supply template screenshot" src="/img/supply/Supply-illustration-temp-960-7b58f135e.png"></picture></a></p>
+
+<p>Find more templates, themes and Jekyll tutorials at <a href="https://jekyllrb.com/resources/">Jekyll’s official site</a>.</p>
+
+<h2 id="features">Features</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />List &amp; display products, thanks to Jekyll’s collections</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Take payment online using <a href="https://gumroad.com">Gumroad</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Contact form with <a href="https://www.formcarry.com">formcarry</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Map with <a href="https://leafletjs.com" title="Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps.">Leaflet</a> thanks to the <a href="https://github.com/DavidJVitale/jekyll-leaflet">jekyll-leaflet plugin</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><a href="https://github.com/jekyll/jekyll-archives">jekyll-archives</a> to build and sort through categories &amp; tags pages</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Custom variables</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />RSS/Atom feed</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />SEO tags</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Microdata markup</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><a href="https://gulpjs.com">Gulp.js</a> + <a href="https://www.browsersync.io">Browsersync</a> for fast development</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Built-in site search</li>
+</ul>
+
+<h2 id="download">Download</h2>
+
+<p>Download the theme at: <a href="https://github.com/YJPL/Supply/">https://github.com/YJPL/Supply/</a></p>
+
+<p><a href="https://github.com/YJPL/Supply/archive/master.zip" class="btn btn-outline--success grow">Download Supply</a></p>
+
+<h2 id="setup">Setup</h2>
+
+<ol>
+  <li>Install <a href="https://jekyllrb.com/docs/installation/">Jekyll</a></li>
+  <li>Add your site and author details in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+  <li>Get a workflow going to watch your website’s output with Jekyll locally.</li>
+</ol>
+
+<p><em>Supply</em> was built with <a href="http://jekyllrb.com/">Jekyll</a> version 4.0.0 and should support newer versions as well.</p>
+
+<p>Install the dependencies with <a href="http://bundler.io/">Bundler</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Run Jekyll commands through Bundler to ensure you’re using the right versions:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<h3 id="config">Config</h3>
+<p>Add your custom configuration in the <code class="language-plaintext highlighter-rouge">_config</code> file.</p>
+
+<h3 id="navigation">Navigation</h3>
+
+<ul>
+  <li>Exposed as a data file to give clients better access</li>
+  <li>Set in the <em>Data</em> / <em>Navigation</em> section, look for <code class="language-plaintext highlighter-rouge">navigation.yml</code> in  <code class="language-plaintext highlighter-rouge">_data</code>.</li>
+</ul>
+
+<h3 id="footer">Footer</h3>
+<p>Look for <code class="language-plaintext highlighter-rouge">default.html</code> in <code class="language-plaintext highlighter-rouge">_layouts</code> to add your footer links.</p>
+
+<h3 id="contact-page">Contact Page</h3>
+<p>To add you formcarry endpoint URL to <code class="language-plaintext highlighter-rouge">_config.yml</code>, you’ll need a fromcarry account, please refer to <a href="https://formcarry.com/documentation/getting-started">formcarry documentation</a></p>
+
+<p>Add your map coordinates if you want to display a map. Please refer to the <a href="https://davidjvitale.com/tech/jekyll-leaflet/getting-started/">jekyll-leaflet plugin</a> and <a href="https://leafletjs.co
+  m">Leaflet</a> documentation for customizing your map(s).</p>
+
+<h3 id="product-pages">Product Pages</h3>
+<p>If you have products on Gumroad, you can start adding product pages right away. Within the Supply theme, you’ll find a sample of a product page with free products, <code class="language-plaintext highlighter-rouge">free-products.html</code>, located in <code class="language-plaintext highlighter-rouge">_pages</code>.</p>
+
+<h2 id="develop">Develop</h2>
+
+<h3 id="tachyons">Tachyons</h3>
+
+<p>You can change the site styling using <a href="http://tachyons.io">Tachyons</a>, look for the CSS in the <code class="language-plaintext highlighter-rouge">sup-theme</code> file, located in the <code class="language-plaintext highlighter-rouge">src</code> folder.</p>
+
+<p>Tachyons is a CSS toolkit and design system based on using components. Please refer to <a href="http://tachyons.io/docs/">Tachyons documentation</a>, you can also start with <a href="https://github.com/dwyl/learn-tachyons">https://github.com/dwyl/learn-tachyons</a></p>
+
+<h3 id="gulp-commands-with-browser-reload">Gulp commands with browser reload</h3>
+
+<p>Supply uses a couple of custom Gulp.js commands. To build your site concatenate your CSS (in <code class="language-plaintext highlighter-rouge">assets</code> -&gt; <code class="language-plaintext highlighter-rouge">CSS</code>), simply run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gulp build
+</code></pre></div></div>
+
+<p>in Terminal.</p>
+
+<p>Then use</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gulp watch
+</code></pre></div></div>
+
+<p>This command builds the site locally on port 3000, with <a href="https://www.browsersync.io">Browsersync</a> so you can quickly revise design changes.</p>
+
+<p>Preview your site with browser reload at <a href="http://localhost:3000">localhost:3000</a>
+Use the address <a href="http://localhost:3001">localhost:3001</a> for additional features like grid preview, CSS highlighting, and more during development.</p>
+
+<h2 id="editing">Editing</h2>
+
+<h3 id="posts">Posts</h3>
+
+<ul>
+  <li>Add, update, or remove a post in the <em>Posts</em> collection.</li>
+  <li>Change the defaults when new posts are created in <code class="language-plaintext highlighter-rouge">_posts/_defaults.md</code>.</li>
+</ul>
+
+<h3 id="collections">Collections</h3>
+<p>To display products, Supply uses a collection called <code class="language-plaintext highlighter-rouge">product</code>
+You will find a series of product samples in the <code class="language-plaintext highlighter-rouge">_products</code> collection folder. By design, all the products are on display on the home page, in Supply, that is <code class="language-plaintext highlighter-rouge">ìndex.html</code>.
+You can manually create pages based on this index to <a href="https://templates.supply/sorting-jekyll-collections-by-custom-variable/">sort your products or any other collection by custom variable</a>.</p>
+
+<p>You can also add your products in regular posts, using the Gumroad <strong>overlay</strong>, <strong>embed</strong>, and <strong>hyperlinks</strong> method, thanks to an include snippet.</p>
+
+<p>Write something like:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://gum.co/supply class="</span><span class="na">no-underline</span> <span class="na">pv2</span> <span class="na">grow</span> <span class="na">db</span><span class="err">"</span><span class="nt">&gt;&lt;img</span> <span class="na">class=</span><span class="s">"w-100"</span> <span class="na">src=</span><span class="s">"/images/screenshot.png"</span><span class="nt">&gt;&lt;/a&gt;</span>
+
+{% include gumroad-overlay.html id="supply" %}
+</code></pre></div></div>
+
+<p>to display a clickable image of your product, with an overlay like this:</p>
+
+<p><a href="https://gum.co/supply" class="no-underline pv2 grow db"><img class="w-100" src="/img/supply/supply-screenshot.png" /></a></p>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+
+<p><br />
+<a class="gumroad-button" href="https://gum.co/supply" target="_blank" data-gumroad-single-product="true"> I demand Supply!</a></p>
+
+<h2 id="open-source">Open-source</h2>
+
+<p><a href="https://github.com/YJPL/Supply/archive/master.zip" class="btn btn-outline--secondary">Get Supply</a></p>
+
+<p class="notice">You are welcome to use and contribute to <a href="https://github.com/YJPL/Supply/" class="b blue hover-light-blue">Supply on GitHub</a></p>
+
+<iframe src="https://github.com/sponsors/YJPL/button" title="Sponsor YJPL" height="35" width="107" style="border: 0;"></iframe>]]></content><author><name>Jacob R. Davies</name></author><category term="design" /><category term="Jekyll" /><category term="Supply" /><category term="web" /><category term="Tachyons" /><category term="e-commerce" /><category term="theme" /><category term="Gumroad" /><summary type="html"><![CDATA[Introducing Supply, an open-source e-commerce theme for Jekyll with Gumroad integration.]]></summary></entry><entry><title type="html">Lockdown calendar</title><link href="https://jacobrhysdavies.com/lockdown-calendar/" rel="alternate" type="text/html" title="Lockdown calendar" /><published>2020-04-10T21:24:48+02:00</published><updated>2020-08-02T00:00:00+02:00</updated><id>https://jacobrhysdavies.com/lockdown-calendar</id><content type="html" xml:base="https://jacobrhysdavies.com/lockdown-calendar/"><![CDATA[<h1 id="confinement-calendar">Confinement calendar</h1>
+
+<p>SARS-COV-2, the novel coronavirus that leads to COVID-19 illness, is no joke. Confinement proved its ability to relieve our healthcare system of some of the pressure it induces. Self-imposed quarantine works, as long as everybody participates.</p>
+
+<p>This coloring calendar is a symbolic way to convey the idea that each day we spend in confinement makes the virus less damaging.</p>
+
+<p>The calendar is for people living in areas under lockdown, and for those affected with symptoms who chose to spend time in self-isolation.</p>
+
+<p>If you and your kids are counting the days until you can go outside again freely, this calendar is for you. The virus gets weaker as you cross out/color/tear up each day.</p>
+
+<blockquote>
+  <p>Stay home until the virus is gone.</p>
+</blockquote>
+
+<p>There are two versions of the calendar: 30 days or 15 days quarantine.</p>
+
+<p><a href="https://gum.co/lockdown-calendar"><img src="/img/lockdown/30-days-lockdown-calendar-A4.png" alt="30 days lockdown calendar" /></a></p>
+<figcaption class="tc">30 days lockdown calendar</figcaption>
+
+<hr />
+
+<p><a href="https://gum.co/lockdown-calendar"><img src="/img/lockdown/15-days-quarantine-calendar-A4.png" alt="15 days quarantine calendar" /></a></p>
+<figcaption class="tc">15 days quarantine calendar</figcaption>
+
+<h2 id="download">Download</h2>
+
+<p class="notice">You can download the calendar(s) here: <a href="https://www.dropbox.com/sh/haubj9qf1ecuf77/AADFrx_6Q1WRS2KFp9Cq7UmVa?dl=0">Lockdown calendar</a></p>
+
+<h2 id="share-yours">Share yours</h2>
+
+<p><a href="https://gum.co/lockdown-calendar"><img src="/img/lockdown/coloriage-Alma.jpeg" alt="Colors by Alma" /></a></p>
+<figcaption class="tc">Colours by Alma :-)</figcaption>]]></content><author><name>Jacob R. Davies</name></author><category term="force majeure" /><category term="side project" /><category term="download" /><category term="calendar" /><summary type="html"><![CDATA[If you find yourself counting the days until you can go outside again freely, this calendar is for you. The virus gets weaker as you cross out each day.]]></summary></entry><entry><title type="html">Templates Supply</title><link href="https://jacobrhysdavies.com/templates-supply-launch/" rel="alternate" type="text/html" title="Templates Supply" /><published>2020-03-06T10:24:48+01:00</published><updated>2020-10-15T00:00:00+02:00</updated><id>https://jacobrhysdavies.com/templates-supply-launch</id><content type="html" xml:base="https://jacobrhysdavies.com/templates-supply-launch/"><![CDATA[<h1 id="templates-supply-launch">Templates Supply launch</h1>
+
+<p><a href="https://templates.supply">Templates Supply</a> is the new home to all the layouts I designed until now. In the coming months, I will release more designs there, including not film-related, like posters, portfolios, presentations, and more.</p>
+
+<p>For a while now, I have distributed layout templates, starting with free storyboard templates available on <a href="https://film-storyboards.com">Film Storyboards</a> since 2010.
+In 2017, I started a small Gumroad shop for storyboards and film treatment templates: <a href="https://storyboards.gumroad.com/">https://storyboards.gumroad.com/</a>.</p>
+
+<p>Adding templates for more purposes was in the back of my mind for some time: presentations, portfolios, posters, all kinds of layouts for freelancers, designers, illustrators, photographers, architects, and art directors. There is another Gumroad shop for that: <a href="https://Jacob R. Davies.gumroad.com/Jacob R. Davies">https://Jacob R. Davies.gumroad.com/</a>.</p>
+
+<p>Today it is time to act on it, merge, and launch <a href="https://templates.supply">Templates Supply</a> as a little side-project.</p>
+
+<p class="full tc"><a href="/img/template-supply/Templates-supply_homepage_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_homepage_Screen-Shot-240-ad954176e.webp 240w, /img/template-supply/Templates-supply_homepage_Screen-Shot-480-ad954176e.webp 480w, /img/template-supply/Templates-supply_homepage_Screen-Shot-960-ad954176e.webp 960w, /img/template-supply/Templates-supply_homepage_Screen-Shot-1920-ad954176e.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_homepage_Screen-Shot-240-b21d51b81.png 240w, /img/template-supply/Templates-supply_homepage_Screen-Shot-480-b21d51b81.png 480w, /img/template-supply/Templates-supply_homepage_Screen-Shot-960-b21d51b81.png 960w, /img/template-supply/Templates-supply_homepage_Screen-Shot-1920-b21d51b81.png 1920w" type="image/png"><img class="gallery" alt="Template Supply home page" src="/img/template-supply/Templates-supply_homepage_Screen-Shot-960-b21d51b81.png"></picture></a></p>
+<figcaption class="tc">Template Supply, home page at launch</figcaption>
+
+<h2 id="designing-the-site">Designing the site</h2>
+
+<h3 id="features-needed">Features needed</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />List &amp; display products, thanks to Jekyll’s collections</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Take payment online using <a href="https://gumroad.com">Gumroad</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Contact form with <a href="https://www.formcarry.com">formcarry</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Map with Leaflet using <a href="https://github.com/DavidJVitale/jekyll-leaflet">jekyll-leaflet plugin</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Jekyll-archives (building and sorting through categories &amp; tags pages for blog)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Custom variables</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />RSS/Atom feed</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />SEO tags</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Microdata markup</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Gulp + Browsersync for development</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Site search</li>
+</ul>
+
+<h3 id="jekyll--gumroad">Jekyll + Gumroad</h3>
+<p>Jekyll is a static site generator built in Ruby. Gumroad is an e-commerce platform for creators.
+<a href="https://templates.supply">Templates Supply</a> is an e-commerce site with <a href="https://gumroad.com">Gumroad</a> integration build with <a href="https://jekyllrb.com/docs/">Jekyll</a> and Tachyons CSS.
+Adding Jekyll overlays or embed code in posts is straightforward with Jekyll. With a simple include, it can work with any site. But here, the entire theme design aims to work seamlessly with Gumroad.</p>
+
+<h3 id="tachyons">Tachyons</h3>
+
+<p><a href="http://tachyons.io">Tachyons</a> CSS toolkit was once again very convenient to design fast.</p>
+
+<h3 id="custom-variables">Custom variables</h3>
+
+<p>Being able to write custom variables is very handy for this type of site. Instead of using a plugin, <a href="https://templates.supply/sorting-jekyll-collections-by-custom-variable/">a few hand-coded variables help sort through a single Jekyll collection</a> by genre, price, software, or format.</p>
+
+<p>Let’s start with <a href="https://templates.supply/free-templates/" class="b green hover-light-green">Free templates</a> since everyone likes free templates.</p>
+
+<p>Then a few examples, sorted by Software:</p>
+
+<p><a href="https://templates.supply/indesign-templates/" class="b dark-pink hover-hot-pink">InDesign</a>
+<a href="https://templates.supply/photoshop-files/" class="b dark-blue hover-blue">Photoshop</a>
+<a href="https://templates.supply/illustrator-templates/" class="b gold hover-yellow">Illustrator</a>
+<a href="https://templates.supply/keynote-themes/" class="b light-blue hover-lightest-blue">Keynote</a>
+<a href="https://templates.supply/pages-templates/" class="b blue hover-light-blue">Pages</a>
+<a href="https://templates.supply/numbers-templates/" class="b light-green hover-washed-green">Numbers</a></p>
+
+<p>You can also look for a <a href="https://templates.supply/storyboard-template/" class="b black-80 hover-light-purple">storyboard template</a> or a <a href="https://templates.supply/film-treatment-template/" class="b black-80 hover-light-gray">film treatment template</a>, and so on.</p>
+
+<h2 id="screen-shots">Screen shots</h2>
+
+<p>[<a href="/img/template-supply/Templates-supply_free_templates_02_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_free_templates_02_Screen-Shot-240-e8ec75cd2.webp 240w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-480-e8ec75cd2.webp 480w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-960-e8ec75cd2.webp 960w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-1920-e8ec75cd2.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_free_templates_02_Screen-Shot-240-e6a15b477.png 240w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-480-e6a15b477.png 480w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-960-e6a15b477.png 960w, /img/template-supply/Templates-supply_free_templates_02_Screen-Shot-1920-e6a15b477.png 1920w" type="image/png"><img class="gallery" alt="Template Supply free templates page][image]][hyperlink] ![Template Supply free templates page" src="/img/template-supply/Templates-supply_free_templates_02_Screen-Shot-960-e6a15b477.png"></picture></a></p>
+<figcaption class="tc">Template Supply, sorting all the free templates</figcaption>
+
+<p><a href="/img/template-supply/Templates-Supply_InDesign_02_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-240-fdbe81aad.webp 240w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-480-fdbe81aad.webp 480w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-960-fdbe81aad.webp 960w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-1920-fdbe81aad.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-240-8dcc29857.png 240w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-480-8dcc29857.png 480w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-960-8dcc29857.png 960w, /img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-1920-8dcc29857.png 1920w" type="image/png"><img class="gallery" alt="Template Supply InDesign templates page" src="/img/template-supply/Templates-Supply_InDesign_02_Screen-Shot-960-8dcc29857.png"></picture></a></p>
+<figcaption class="tc">Template Supply, sorting all the InDesign templates</figcaption>
+
+<p><a href="/img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-240-7d640bfe4.webp 240w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-480-7d640bfe4.webp 480w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-960-7d640bfe4.webp 960w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-1920-7d640bfe4.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-240-224333be2.png 240w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-480-224333be2.png 480w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-960-224333be2.png 960w, /img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-1920-224333be2.png 1920w" type="image/png"><img class="gallery" alt="Template Supply anime templates page" src="/img/template-supply/Templates-supply_anime-storyboard-templates_01_Screen-Shot-960-224333be2.png"></picture></a></p>
+
+<p><a href="/img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-240-352ee36f9.webp 240w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-480-352ee36f9.webp 480w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-960-352ee36f9.webp 960w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-1920-352ee36f9.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-240-b317d0ff9.png 240w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-480-b317d0ff9.png 480w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-960-b317d0ff9.png 960w, /img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-1920-b317d0ff9.png 1920w" type="image/png"><img class="gallery" alt="Template Supply anime templates page" src="/img/template-supply/Templates-supply_anime-storyboard-templates_02_Screen-Shot-960-b317d0ff9.png"></picture></a></p>
+<figcaption class="tc">Template Supply, sorting all the anime templates</figcaption>
+
+<p><a href="/img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-240-630ed9c17.webp 240w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-480-630ed9c17.webp 480w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-960-630ed9c17.webp 960w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-1920-630ed9c17.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-240-060ebd429.png 240w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-480-060ebd429.png 480w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-960-060ebd429.png 960w, /img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-1920-060ebd429.png 1920w" type="image/png"><img class="gallery" alt="Template Supply Apple Pages templates page" src="/img/template-supply/Templates-supply_Apple-Pages_templates_01_Screen-Shot-960-060ebd429.png"></picture></a>
+<a href="/img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-240-5a051f936.webp 240w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-480-5a051f936.webp 480w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-960-5a051f936.webp 960w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-1920-5a051f936.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-240-e7dfb8c73.png 240w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-480-e7dfb8c73.png 480w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-960-e7dfb8c73.png 960w, /img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-1920-e7dfb8c73.png 1920w" type="image/png"><img class="gallery" alt="Template Supply Apple Pages templates page" src="/img/template-supply/Templates-supply_Apple-Pages_templates_02_Screen-Shot-960-e7dfb8c73.png"></picture></a></p>
+<figcaption class="tc">Template Supply, sorting all the Apple Pages templates</figcaption>
+
+<p>Visit <a href="https://templates.supply">Templates Supply</a>, to browse all the available templates in one place.</p>
+
+<h2 id="open-source">Open source</h2>
+
+<p><a href="https://github.com/YJPL/Supply/archive/master.zip" class="btn btn-outline--success">Get Supply</a></p>
+
+<p class="notice">Please use and contribute to <em>Supply</em>, the theme behind the templates.supply site: <a href="https://github.com/YJPL/Supply/" class="b green hover-light-green">Supply repo</a></p>
+
+<iframe src="https://github.com/sponsors/YJPL/button" title="Sponsor YJPL" height="35" width="107" style="border: 0;"></iframe>]]></content><author><name>Jacob R. Davies</name></author><category term="design" /><category term="Jekyll" /><category term="side project" /><category term="templates" /><category term="web" /><category term="Tachyons" /><category term="e-commerce" /><category term="Gumroad" /><summary type="html"><![CDATA[Launching Templates Supply, an e-commerce microsite for templates, built with Jekyll and Gumroad.]]></summary></entry><entry><title type="html">Illustrative branding</title><link href="https://jacobrhysdavies.com/character-branding-illustration/" rel="alternate" type="text/html" title="Illustrative branding" /><published>2019-11-12T00:00:00+01:00</published><updated>2019-11-14T11:14:40+01:00</updated><id>https://jacobrhysdavies.com/character-branding-illustration</id><content type="html" xml:base="https://jacobrhysdavies.com/character-branding-illustration/"><![CDATA[<h1 id="illustration-and-character-design-used-for-brand-development">Illustration and character design used for brand development</h1>
+
+<iframe style="border: none; width: 100%; height: 800px; background-color: transparent;" src="https://e.issuu.com/anonymous-embed.html?u=Jacob R. Davies&amp;d=Jacob R. Davies_portfolio_character_de" allowfullscreen="allowfullscreen"></iframe>
+<p class="pa3 pa4-ns f5 i"><a href="https://e.issuu.com/embed.html#1029923/45203100&amp;hideAdsInReader=0">Illustrative branding</a> from <a href="https://issuu.com/Jacob R. Davies">Jacob R. Davies outc.</a> on <a href="https://issuu.com/Jacob R. Davies/docs/Jacob R. Davies_portfolio_character_de">Issuu</a>.</p>
+
+<p>See also <a href="/character-design/">/character-design/</a> for more.
+<br />
+<br /></p>
+
+<p><a class="f6 br1 mt2 mr1 pa2 link black-60 hover-light-blue bg-near-white hover-bg-black-80" href="/character-design/">Character Design</a></p>]]></content><author><name>Film Storyboards</name></author><summary type="html"><![CDATA[Case studies: illustration and character design used in brand development.]]></summary></entry><entry><title type="html">Freelancers templates</title><link href="https://jacobrhysdavies.com/free-freelancing-templates/" rel="alternate" type="text/html" title="Freelancers templates" /><published>2019-08-15T00:00:00+02:00</published><updated>2020-07-27T00:00:00+02:00</updated><id>https://jacobrhysdavies.com/free-freelancing-templates</id><content type="html" xml:base="https://jacobrhysdavies.com/free-freelancing-templates/"><![CDATA[<h1 id="freelance-starting-kit">Freelance starting kit.</h1>
+
+<h2 id="assignments-invoices--incomes-tracker-spreadsheet-template-for-applenumbers">Assignments, Invoices &amp; Incomes Tracker Spreadsheet Template for Apple Numbers</h2>
+<p>The first is a free spreadsheet template for <a href="https://www.apple.com/numbers/">Apple Numbers</a>, to help you keeping track of your past and future invoices and clients payments. The template is set in €, although it is easy to change that in Numbers should you need to invoice in another currency. It has a 21% VAT column which you can customize to your country’s percentage, remove or set to 0% if VAT doesn’t apply. The net earning column gives you an idea of your actual earnings . Check with your accountant which percentage best applies to you. Add or remove rows as you see fit. The template covers a full year.</p>
+
+<h2 id="client-listing-spreadsheet-for-apple-numbers">Client Listing spreadsheet for Apple Numbers</h2>
+<p>The second Apple Numbers template is a free spreadsheet template to help you keep track of contacts and prospective clients. The first column is for your contact’s name, then its title. The fourth column is for the company industry field, say animation or publishing. Addresses, emails, phone and web details all have a column of their own. You can see at a glance if you have already worked together or if this is a new, potential client, when you contacted them, with a follow-up column and your response plan. Last, a column for notes. This template is useful for contractors who need keeping track of many prospects and contacts, i.e., illustrators.</p>
+
+<p class="tc f5 black-30 measure-wide lh-copy avenir">
+(Click on the pictures for details)
+</p>
+
+<div class="cf full pa4-ns pa2">
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/invoices-tracker" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/assignments_tracker_spreadsheet_2020.png" /></a>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+<br />
+<a class="gumroad-button" href="https://gum.co/invoices-tracker" target="_blank" data-gumroad-single-product="true"> I'd like this template, please!</a>
+
+</div>
+
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/client-list" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/Client-List_spreadsheet_overview.png" /></a>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+<br />
+<a class="gumroad-button" href="https://gum.co/client-list" target="_blank" data-gumroad-single-product="true"> I'd like this template, please!</a>
+
+</div>
+
+</div>
+
+<h2 id="invoice-templates-for-apple-pages">Invoice templates for Apple Pages</h2>
+<p>Invoicing your work is paramount to staying in business. You can use one of these free <a href="https://www.apple.com/pages/">Apple Pages</a> invoices templates to get started.</p>
+
+<div class="cf full pa4-ns pa2">
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/euro-invoice" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/freelancer-invoice-template-euro.png" /></a>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+<br />
+<a class="gumroad-button" href="https://gum.co/euro-invoice" target="_blank" data-gumroad-single-product="true"> I'd like this template, please!</a>
+
+</div>
+
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/US-invoice" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/freelancer-Invoice-template-US.png" /></a>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+<br />
+<a class="gumroad-button" href="https://gum.co/US-invoice" target="_blank" data-gumroad-single-product="true"> I'd like this template, please!</a>
+
+</div>
+</div>
+
+<h2 id="payment-reminder-️-letter-templates-set">Payment reminder ⚡️ letter templates set</h2>
+<p>All this is great, but you are also going to need to collect those invoices. Now, this is a bit of a downer, sorry, but now and then, read sooner or later, almost all freelancers experience late payment. If you are unfortunate enough, say, you have a late-paying <em>Belgian</em> client this trio of past-due notice sample letters for <a href="https://www.apple.com/numbers/">Apple Pages</a> will come in handy. Each letter has a humorous illustration provided courtesy of <a href="https://jacobrhysdavies.com">@Jacob R. Davies</a>. Feel free to use any of these past due letter templates fearlessly, without attribution. Chances are your current, and past late-paying clients will be thankful and pay you right away!</p>
+
+<div class="cf full pa4-ns pa2">
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/past-due-letter-templates" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/First-Past-Due-Notice-letter-template-sample.png" /></a>
+
+</div>
+
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/past-due-letter-templates" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/Second-Past-Due-Notice-letter-template-sample.png" /></a>
+
+</div>
+
+<div class="fl w-100 w-50-ns pa2">
+<a href="https://gum.co/past-due-letter-templates" class="no-underline pv2 grow db"><img class="w-100" src="/img/templates/Third-Past-Due-Notice-letter-template-sample.png" /></a>
+
+<script defer="" src="https://gumroad.com/js/gumroad.js"></script>
+<br />
+<a class="gumroad-button" href="https://gum.co/past-due-letter-templates" target="_blank" data-gumroad-single-product="true"> I'd like this template, please!</a>
+
+</div>
+
+
+<aside class="fl w-100">
+
+<div class="fl w-100 w-50-ns pa2">
+    <p class="f5 black-30 measure-wide lh-copy avenir">
+    Sign-up to get updates when a new template is available.
+  </p>
+<style> .gumroad-follow-form-embed { zoom: 1; } .gumroad-follow-form-embed:before, .gumroad-follow-form-embed:after { display: table; line-height: 0; content: ""; } .gumroad-follow-form-embed:after { clear: both; } .gumroad-follow-form-embed * { margin: 0; border: 0; padding: 0; outline: 0; box-sizing: border-box !important; float: left !important; } .gumroad-follow-form-embed input { border-radius: 4px; border-top-right-radius: 0; border-bottom-right-radius: 0; font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; background: #fff; border: 1px solid #ddd; border-right: 0; color: #aaa; padding: 10px; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02); background-position: top right; background-repeat: no-repeat; text-rendering: optimizeLegibility; font-smoothing: antialiased; -webkit-appearance: none; -moz-appearance: caret; width: 65% !important; height: 40px !important; } .gumroad-follow-form-embed button { border-radius: 4px; border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); -webkit-transition: all .05s ease-in-out; transition: all .05s ease-in-out; display: inline-block; padding: 11px 15px 12px; cursor: pointer; color: #fff; font-size: 15px; line-height: 100%; font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #000000; border: 1px solid #000000; filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#262626, endColorstr=#000000, GradientType=0)"; background: -webkit-linear-gradient(#262626, #000000); background: linear-gradient(to bottom, #262626, #000000); height: 40px !important; width: 35% !important; } </style> <form action="https://gumroad.com/follow_from_embed_form" class="form gumroad-follow-form-embed" method="post"> <input name="seller_id" type="hidden" value="2389879992017" /> <input name="email" placeholder="Your email address" type="email" /> <button data-custom-highlight-color="" type="submit">Sign up</button> </form>
+</div>
+</aside>
+
+</div>]]></content><author><name>Jacob R. Davies</name></author><category term="templates" /><category term="Apple Numbers" /><category term="Apple Pages" /><category term="freelance" /><summary type="html"><![CDATA[Freelance starting kit.]]></summary></entry><entry><title type="html">Soon</title><link href="https://jacobrhysdavies.com/coming-soon-template-for-jekyll/" rel="alternate" type="text/html" title="Soon" /><published>2019-08-09T13:21:32+02:00</published><updated>2020-06-25T00:00:00+02:00</updated><id>https://jacobrhysdavies.com/coming-soon-template-for-jekyll</id><content type="html" xml:base="https://jacobrhysdavies.com/coming-soon-template-for-jekyll/"><![CDATA[<h1 id="a-coming-soon-page-template-for-jekyll">A “coming soon” page template for Jekyll</h1>
+
+<p><a href="https://yjpl.github.io/soon/">Soon</a> is a simple <em>“coming soon”</em> page template built for <a href="https://jekyllrb.com/docs/">Jekyll</a>.</p>
+
+<h2 id="whats-in-it">What’s in it?</h2>
+
+<p><a href="/img/Soon/Soon-Screen-Shot.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Soon/Soon-Screen-Shot-240-79775b4b4.webp 240w, /img/Soon/Soon-Screen-Shot-480-79775b4b4.webp 480w, /img/Soon/Soon-Screen-Shot-960-79775b4b4.webp 960w, /img/Soon/Soon-Screen-Shot-1920-79775b4b4.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Soon/Soon-Screen-Shot-240-06090443f.png 240w, /img/Soon/Soon-Screen-Shot-480-06090443f.png 480w, /img/Soon/Soon-Screen-Shot-960-06090443f.png 960w, /img/Soon/Soon-Screen-Shot-1920-06090443f.png 1920w" type="image/png"><img class="gallery" alt="Soon for Jekyll, screenshot" src="/img/Soon/Soon-Screen-Shot-960-06090443f.png"></picture></a></p>
+<figcaption>Coming soon page template for Jekyll, demo sample</figcaption>
+
+<p><a href="/img/Soon_Screen-Shot-2019-02-18-at-14.44.01.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Soon_Screen-Shot-2019-02-18-at-14.44.01-240-574f594a5.webp 240w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-480-574f594a5.webp 480w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-960-574f594a5.webp 960w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-1920-574f594a5.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Soon_Screen-Shot-2019-02-18-at-14.44.01-240-0fa404dc3.png 240w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-480-0fa404dc3.png 480w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-960-0fa404dc3.png 960w, /img/Soon_Screen-Shot-2019-02-18-at-14.44.01-1920-0fa404dc3.png 1920w" type="image/png"><img class="gallery" alt="Coming soon page template for Jekyll, sample" src="/img/Soon_Screen-Shot-2019-02-18-at-14.44.01-960-0fa404dc3.png"></picture></a></p>
+<figcaption>Coming soon page template for Jekyll, sample in use</figcaption>
+
+<p>Soon is a single static page with a full-screen image, nothing more. Remember those <em>under construction</em> sites? The point is to show a quick message or a temporary contact page to your visitors. Use this template for a few hours to a few days while you are building your site in the background. Since the page comes with a Jekyll environment, you can host it for free on GitHub.</p>
+
+<h2 id="start-soon">Start Soon</h2>
+<p><a href="https://jekyllrb.com/docs/installation/">Install Jekyll</a>, clone the <a href="https://github.com/YJPL/soon.git">Soon repo</a>, run <code class="language-plaintext highlighter-rouge">cd soon</code> then <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> commands in Terminal to check how it looks locally (localhost:4000). You can self-host or use <a href="https://pages.github.com">GitHub pages</a> to publish the site.</p>
+
+<p>You just need to modify the <code class="language-plaintext highlighter-rouge">_config</code> and <code class="language-plaintext highlighter-rouge">index.md</code> files with your site information to get the page up and running. Although it is just a starting point and you can change pretty much anything else. If you change the background image, don’t forget to link the new image in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code>. You will find the background image in the <code class="language-plaintext highlighter-rouge">images</code> folder.</p>
+
+<hr />
+
+<p><em>Soon</em> comes with all the Jekyll starting folders. This means you can publish your <em>Soon</em> page and restyle, write and test your site locally. Once happy with your layouts for posts, pages, collections, and any other site assets, you can overwrite the original files and push your site online.</p>
+
+<h2 id="get-started">Get started</h2>
+
+<p><a href="https://github.com/YJPL/soon/blob/master/README.md">README</a> or get <a href="https://github.com/YJPL/soon/">Soon</a>.</p>
+
+<iframe src="https://github.com/sponsors/YJPL/button" title="Sponsor YJPL" height="35" width="107" style="border: 0;"></iframe>]]></content><author><name>Jacob R. Davies</name></author><category term="Jekyll" /><category term="templates" /><category term="Soon" /><category term="web" /><category term="theme" /><summary type="html"><![CDATA[A “coming soon” page template for Jekyll]]></summary></entry><entry><title type="html">Portfolio relaunch</title><link href="https://jacobrhysdavies.com/relaunch/" rel="alternate" type="text/html" title="Portfolio relaunch" /><published>2019-07-15T00:00:00+02:00</published><updated>2022-04-10T01:10:48+02:00</updated><id>https://jacobrhysdavies.com/relaunch</id><content type="html" xml:base="https://jacobrhysdavies.com/relaunch/"><![CDATA[<h2 id="old-is-new">Old is New</h2>
+
+<p>OK, so here is the 2019 version of <a href="https://jacobrhysdavies.com">jacobrhysdavies.com</a>, a portfolio site built with <a href="https://jekyllrb.com">Jekyll</a> and <a href="http://tachyons.io">TACHYONS</a>.</p>
+
+<p>Since the start, Jacob R. Davies always had a playful and experimental side.</p>
+
+<p>Jacob R. Daviesoutc.com<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> launched in 2008 on <a href="https://www.indexhibit.org">Indexhibit</a>. Back then, it was the latest cool thing to build artsy portfolios. The site <del>design</del> colors, fonts, and layout changed all the time. It was as much a place for showcasing work than it was a space for learning. A little bit of CSS first, bits of HTML, then some underlying PHP, then frameworks like Foundation.</p>
+
+<p>It looked like this at some point in 2010:</p>
+
+<p><a href="/img/Screen-shot-2010-11-12-at-03.36.39.jpg"><img src="/img/Screen-shot-2010-11-12-at-03.36.39.jpg" /></a></p>
+
+<p>At some point in 2012, it looked like this:</p>
+
+<p><img src="/img/Screen-Shot-2012-03-19-at-01.56.12.jpg" /></p>
+
+<h2 id="exit-wordpress">Exit WordPress</h2>
+
+<p>After a while, I migrated the site to <a href="https://wordpress.org" title="WordPress.org">self-hosted WordPress</a>. The migration coincided with losing interest in that kind of experiment. Besides, I also had a hard time focusing on illustration because I was working in a lot of different styles. No matter what you do, people tend to put things into categories, and they will do so with your work too. The truth is, it was somewhat complex to showcase my portfolio as a cohesive body of works. And there were indeed too many styles: storyboards, sketches, graphic design, cartoon, editorial, traditional illustration, collages, and more. My portfolio ended up split into two sites. The first, showcasing illustration/design, would remain <a href="https://jacobrhysdavies.com/relaunch/">here</a>. All the storyboards and pre-production work would find a new home at <a href="https://film-storyboards.com" title="Film Storyboards Portfolio">https://film-storyboards.com</a>. That made sense. The storyboarding site launched in 2010 and is running on WordPress since then.</p>
+
+<p>However, maintaining jacobrhysdavies.com on WordPress was a pain, so it ended up unattended for a long time.
+The theme itself had a steep learning curve but seemed unmaintained. Some of its features, like grids, galleries, and modularity, were great but made WordPress harder to use as a content management system. It added complexity by using a completely different logic than the “native” WordPress one. Why use WordPress if you are going to differ from its core functions that much? I like WordPress, but it never felt like the right choice for this portfolio.</p>
+
+<h2 id="site-builders">Site builders</h2>
+
+<p>For some time <a href="https://cargocollective.com/" title="Cargo Collective">Cargo Collective</a> was one of the most popular choices among illustrators and designers.</p>
+
+<p><a href="https://www.squarespace.com">Squarespace</a> set another standard for design/photography/illustration portfolios, solving the maintenance issues of WordPress.</p>
+
+<p>Adobe is present in the online portfolio space with <a href="https://www.behance.net" title="Behance">Behance</a>. <a href="https://www.format.com/">Format</a>, <a href="https://www.artstation.com">ArtStation</a>, aand many others have a similar offering (SiteSpace).</p>
+
+<p>Site builders are great to get your work out there fast. Site builders are also new and shiny before their inevitable demise. When that happens, one of the issues that arise is the portability of content. All in all, none of these felt like the right choice for this project. These solutions somehow give you too much to chose from but lack flexibility in their inner working. And that’s the point: a personal portfolio should work for you. Building it yourself may or may not reflect your work more creatively, but at least it gives you more control over how it works.</p>
+
+<p>Besides, a portfolio is somehow compact, but having a website is also about archiving things that need not be at the forefront. There is value in less prominent as well as older works sometimes. As a visitor, you get to chose between a quick tour or getting lost into the maze.</p>
+
+<p>Last, this is an opportunity to learn some of the more recent web development technologies. It never hurts from a design point of view, even if you don’t have to be a specialist about every single new framework out there.</p>
+
+<p>Frameworks all fade away at some point but learning how to design something yourself gives you more flexibility.</p>
+
+<h2 id="enters-jekyll">Enters Jekyll</h2>
+<p>I used Jekyll for a side project and found it easy to learn. Jekyll is an engine that turns plain text into static HTML files. You keep a copy of an entire site on your computer that Git<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> mirrors so that any host can serve it online. Jekyll rebuilds the site with each change. It is perfect as a starting point to build a simple website.</p>
+
+<h3 id="tachyons">Tachyons</h3>
+<p><a href="http://tachyons.io">Tachyons</a> is a CSS toolkit and design system based on using and reusing components. It saves a lot of time tweaking and re-writing CSS. Yes! 👍🏼<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
+
+<h3 id="gulp">Gulp</h3>
+<p>Gulp automates a couple of tasks during development, mainly resizing images, files compression, and browser reloading.</p>
+
+<h3 id="responsive-images">Responsive images</h3>
+
+<p>Images are vital to an illustration website. One of the advantages of a static site is speed, but pictures still affect rendering time.</p>
+
+<p>Serving responsive images is a must today, but this is a time-consuming task, not something Jekyll handles from the get-go.
+<a href="https://github.com/rbuchberger/jekyll_picture_tag">Jekyll Picture Tags</a> takes care of this well, but you need to write custom calls for images in Liquid.</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">picture</span><span class="w"> </span>sky.jpg<span class="w"> </span><span class="o">--</span>alt<span class="w"> </span>night<span class="w"> </span>sky<span class="w"> </span><span class="o">--</span>picture<span class="w"> </span><span class="na">class</span><span class="o">=</span><span class="s2">".full .tc"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h3 id="pictures-in-markdown">Pictures in Markdown</h3>
+
+<p>In Jekyll, there are several ways to write images markup:  you can either use HTML, Liquid, or Markdown.</p>
+
+<script src="https://gist.github.com/YJPL/0af424a33e2030abb53b7c3b8cb063b5.js"></script>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/img/sky.jpg"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure&gt;</span>
+	<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/img/sky"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/img/sky.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+	<span class="nt">&lt;figcaption&gt;</span>Night sky<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span></code></pre></figure>
+
+<p>Depending on what you need, each of these methods is valid. All images will render the same.</p>
+
+<p>Unfortunately, Markdown doesn’t render captions. One solution is to add a bit of HTML after it.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figcaption&gt;</span>Night sky<span class="nt">&lt;/figcaption&gt;</span></code></pre></figure>
+
+<p><a href="/img/sky.jpg"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/sky-240-58efa33b2.webp 240w, /img/sky-480-58efa33b2.webp 480w, /img/sky-960-58efa33b2.webp 960w, /img/sky-1920-58efa33b2.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/sky-240-b0852e945.jpg 240w, /img/sky-480-b0852e945.jpg 480w, /img/sky-960-b0852e945.jpg 960w, /img/sky-1920-b0852e945.jpg 1920w" type="image/jpeg"><img class="gallery" alt="This is a nice night sky picture" src="/img/sky-960-b0852e945.jpg"></picture></a></p>
+<figcaption>Night sky</figcaption>
+
+<p><a href="/img/Background.png"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Background-240-ac6c3a72a.webp 240w, /img/Background-480-ac6c3a72a.webp 480w, /img/Background-960-ac6c3a72a.webp 960w, /img/Background-1920-ac6c3a72a.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Background-240-ae1688f67.png 240w, /img/Background-480-ae1688f67.png 480w, /img/Background-960-ae1688f67.png 960w, /img/Background-1920-ae1688f67.png 1920w" type="image/png"><img class="gallery" alt="Lost in virtual reality, illustration" src="/img/Background-960-ae1688f67.png"></picture></a></p>
+<figcaption>Lost in VR</figcaption>
+
+<p>I use a small Ruby plugin to keep this even shorter.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Jekyll</span><span class="o">::</span><span class="no">Hooks</span><span class="p">.</span><span class="nf">register</span> <span class="ss">:documents</span><span class="p">,</span> <span class="ss">:pre_render</span> <span class="k">do</span> <span class="o">|</span><span class="n">document</span><span class="p">,</span> <span class="n">payload</span><span class="o">|</span>
+  <span class="n">docExt</span> <span class="o">=</span> <span class="n">document</span><span class="p">.</span><span class="nf">extname</span><span class="p">.</span><span class="nf">tr</span><span class="p">(</span><span class="s1">'.'</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
+  <span class="c1"># only process if we deal with a markdown file</span>
+  <span class="k">if</span> <span class="n">payload</span><span class="p">[</span><span class="s1">'site'</span><span class="p">][</span><span class="s1">'markdown_ext'</span><span class="p">].</span><span class="nf">include?</span> <span class="n">docExt</span>
+    <span class="n">newContent</span> <span class="o">=</span> <span class="n">document</span><span class="p">.</span><span class="nf">content</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/!\[(.*)\]\(([^\)]+)\)(?:{:([^}]+)})*/</span><span class="p">,</span> <span class="s1">'{% picture default \2 --alt \1 %}'</span><span class="p">)</span>
+    <span class="n">document</span><span class="p">.</span><span class="nf">content</span> <span class="o">=</span> <span class="n">newContent</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+</code></pre></div></div>
+
+<script src="https://gist.github.com/YJPL/48718e28d2b2fda3476aceac018c8f26.js"></script>
+
+<h3 id="galleries">Galleries</h3>
+<p>Galleries provided thanks to <a href="https://PhotoSwipe.com">PhotoSwipe</a>.</p>
+
+<p><a href="/img/Greenpeace-Detox-Campaign_Illustration_vs_01.jpg"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Greenpeace-Detox-Campaign_Illustration_vs_01-240-e738e5c57.webp 240w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-480-e738e5c57.webp 480w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-960-e738e5c57.webp 960w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-1920-e738e5c57.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/Greenpeace-Detox-Campaign_Illustration_vs_01-240-367652832.jpg 240w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-480-367652832.jpg 480w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-960-367652832.jpg 960w, /img/Greenpeace-Detox-Campaign_Illustration_vs_01-1920-367652832.jpg 1920w" type="image/jpeg"><img class="gallery" alt="Test gallery in Markdown" src="/img/Greenpeace-Detox-Campaign_Illustration_vs_01-960-367652832.jpg"></picture></a></p>
+
+<p><a href="/img/concept/Noor_Modern_day.jpg"><picture class="" data-volume="11"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/concept/Noor_Modern_day-240-5106efecd.webp 240w, /img/concept/Noor_Modern_day-480-5106efecd.webp 480w, /img/concept/Noor_Modern_day-960-5106efecd.webp 960w, /img/concept/Noor_Modern_day-1920-5106efecd.webp 1920w" type="image/webp"><source sizes="(max-width: 480px) 100vw, (max-width: 1920px) 100vw, 960px" srcset="/img/concept/Noor_Modern_day-240-7516c2184.jpg 240w, /img/concept/Noor_Modern_day-480-7516c2184.jpg 480w, /img/concept/Noor_Modern_day-960-7516c2184.jpg 960w, /img/concept/Noor_Modern_day-1920-7516c2184.jpg 1920w" type="image/jpeg"><img class="gallery" alt="another" src="/img/concept/Noor_Modern_day-960-7516c2184.jpg"></picture></a></p>
+
+<h4 id="photoswipe">Photoswipe</h4>
+
+<div id="portfolio-gallery" class="photoswipe-gallery cf fl w-100">
+
+
+
+
+
+
+
+
+
+
+
+<a class="photoswipe photo" href="/img/Background.png" target="_blank" data-pswp-width="1920" data-pswp-height="1080">
+
+<img class="image" src="/img/Background.png" width="1920" height="" alt="Lost in VR" /></a>
+
+<div class="invisible caption"></div>
+
+
+
+
+
+
+
+
+
+
+
+<a class="photoswipe photo" href="/img/Greenpeace-Detox-Campaign_Illustration_vs_01.jpg" target="_blank" data-pswp-width="1920" data-pswp-height="960">
+
+<img class="image" src="/img/Greenpeace-Detox-Campaign_Illustration_vs_01.jpg" width="1920" height="" alt="Greenpeace campaign Illustration" /></a>
+
+<div class="invisible caption"></div>
+
+
+
+
+
+
+
+
+
+
+
+<a class="photoswipe photo" href="/img/concept/Noor_Modern_day.jpg" target="_blank" data-pswp-width="2048" data-pswp-height="1187">
+
+<img class="image" src="/img/concept/Noor_Modern_day.jpg" width="1920" height="" alt="Noor island concept" /></a>
+
+<div class="invisible caption"></div>
+
+
+
+
+
+
+
+
+
+
+
+<a class="photoswipe photo" href="/img/story-development/US-Cavalry-Museum-storyboard-sketchbook-second-draft-panel-3_08.jpg" target="_blank" data-pswp-width="1920" data-pswp-height="1080">
+
+<img class="image" src="/img/story-development/US-Cavalry-Museum-storyboard-sketchbook-second-draft-panel-3_08.jpg" width="1920" height="" alt="US Cavalry Museum storyboard" /></a>
+
+<div class="invisible caption"></div>
+
+</div>
+
+<p>To conclude, which technology is behind a site doesn’t matter, except when it does. As long as it doesn’t get in the way, the end-user does not care about it. And that’s the point. For now, the site is easy to update by dropping images in a folder and using text files. Running a couple of commands to deploy the site is not much more complicated than using a CMS like WordPress.
+No system is perfect. There are downsides, but using a word processor instead of a dashboard is not one of them. There are still things to improve: how Jekyll handles images, for example. This new configuration also has dependencies, like plugins. Galleries need to be hard coded instead of dragging and dropping images. There is room for improvement, but it is a new start. All in all, it means I can experiment again with my portfolio in the coming months.</p>
+
+<h2 id="use-and-contribute-to-this-theme">Use and contribute to this theme</h2>
+<p>While this site’s repo with all images assets and a bunch of experiments is not public, the theme’s code is available <a href="https://github.com/YJPL/alternate">here</a> on GitHub.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>jacobrhysdavies.com ancestor site <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://git-scm.com">git</a> is a distributed version control system, it enables people to write and publish files and revert any change made to the code at any given time. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>This new theme is loosely based on <a href="https://github.com/tachyons-css/jekyll-tachyons">JKL + TACHYONS</a>. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Jacob R. Davies</name></author><category term="design" /><category term="Jekyll" /><category term="web" /><category term="Tachyons" /><summary type="html"><![CDATA[Old is New]]></summary></entry></feed>

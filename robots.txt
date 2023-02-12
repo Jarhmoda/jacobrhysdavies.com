@@ -1,0 +1,2 @@
+User-agent: Applebot
+Sitemap: https://jacobrhysdavies.com/sitemap.xml
